@@ -1,15 +1,7 @@
-{
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+{"users": [
+    {
+        "name": "John",
+        "age": 21,
+        "email": "john@example.com"
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
-}
-
+]}
